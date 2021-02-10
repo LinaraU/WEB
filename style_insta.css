@@ -1,0 +1,160 @@
+body{
+    background-color: #fafafa;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+.title{
+    width: 200px;
+    margin-top: 21px;
+    margin-left: 80px;
+}
+
+.main-form, .sign-in{
+    width: 350px;
+    height: 380px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    top: -650px;
+    left: 800px;
+    background-color: white;
+}
+
+.phone{
+    height:650px;
+    margin: 50px 350px;
+}
+.description, #or{
+    width: 268px;
+    height: 60px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 17px;
+    color: #999;
+    text-align: center;
+    margin: 0 auto;
+}
+.line, .line2{
+    border-bottom: 1px solid #dbdbdb;
+    margin-left: 40px;
+    margin-top: 25px;
+    width: 101px;
+}
+.line2{
+    margin-left: 203px;
+    margin-top: -53px;
+}
+#or{
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 400;
+    margin-top: -8px;
+}
+#username, #password{
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+    color: #999999;
+    background: #fafafa;
+    width: 258px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    padding-left: 8px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+#username, #password{
+    margin-top: 5px;
+}
+.fb-login{
+    height: 32px;
+    width: 350px;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    color:#596E99;
+}
+
+.forgot-pass{
+    font-size: 12px;
+    margin-top:-100px;
+}
+.reg-button{
+    background-color: #3897f0;
+    border-radius: 5px;
+    height: 32px;
+    width: 268px;
+    color: white;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+    appearance: none;
+    border: 0px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.reg-button{
+    margin-top: 15px;
+    height: 30px;
+}
+.sign-in{
+    width: 348px;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top:7px;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+.download{
+    margin-left: 800px;
+    margin-top: -650px;
+    width: 350px;
+    height: 102px;
+    text-align: center;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+.available, .available-g{
+    width: 155px;
+    height: 50px;
+    float: left;
+    margin-left: 25px;
+}
+.available-g{
+    float: right;
+    margin-right: 25px;
+    margin-top: -50px;
+}
+.footer{
+    width: 800px;
+    height: 122px;
+    margin-left: 300px;
+    padding-top: 150px;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.6;
+
+}
+li{
+    padding-right: 18px;
+
+}
+
+.options a{
+    text-decoration: none;
+    color:rgb(165,167,171);
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer p{
+    font-size: 12px;
+    color: #999;
+    font-weight: 600;
+    margin-left: 37px;
+    margin-top: -5px;
+    text-align: center;
+}
